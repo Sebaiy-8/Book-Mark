@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/all.min.css">
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <link rel="stylesheet" href="Css/style.css">
+    
+
+    <title>BookMark</title>
+</head>
+<body>
+    <main>
+        <div class="head text-center mt-5">
+            <h1>Book Mark</h1>
+        </div>
+        <section class="mx-auto mt-3 w-75 bg-success p-3 mb-5 rounded-3 shadow-lg">
+            <div class="text-center mb-5">
+                <h2><i class="fa-solid fa-bookmark"></i> Bookmark your favorite sites <i class="fa-solid fa-bookmark"></i></h2>
+            </div>
+            <div class="mb-4">
+                <label for="siteName" class="mb-2 fs-5"><i class="fa-solid fa-book-bookmark me-2"></i> Site Name :</label>
+                <input type="text" id="siteName" class="w-100 form-control" placeholder="Site Name...">
+            </div>
+            <div>
+                <label for="url" class="mb-2 fs-5"><i class="fa-solid fa-link me-2"></i> Site Url :</label>
+                <input type="text" id="url" class="w-100 form-control mb-3" placeholder="Url...">
+            </div>
+            <div class="mx-auto text-center">
+                <button class="btn btn-dark w-50" id="add" disabled onclick="addSite()">Submit</button>
+            </div>
+        </section>
+        <section class="w-75 mx-auto shadow-lg">
+            <div>
+                <table class="table text-center">
+                    <thead>
+                        <tr>
+                            <th>Index</th>
+                            <th>Website Name</th>
+                            <th>Delete</th>
+                            <th>Visit</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tableData">
+
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+    </main>
+
+
+
+
+
+
+
+    <script src="js/index.js"></script>
+</body>
+</html>

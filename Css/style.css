@@ -1,0 +1,20 @@
+body{
+    background-color: rgba(21, 41, 31, 0.756);
+}
+.head h1{
+    font-size: 50px;
+    font-family: "Pacifico", cursive;
+    text-shadow: 2px 4px 8px white;
+
+}
+
+h2{
+    font-family: "Righteous", cursive;
+    font-size: 25px;
+    text-shadow: 2px 2px 8px white;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+}
